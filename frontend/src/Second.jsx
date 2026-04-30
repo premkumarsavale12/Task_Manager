@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const Second = () => {
+const Second = () => { 
+    
     const [data, setData] = useState([]);
     const [query, setQuery] = useState('');
     const [filteredItems, setFilteredItems] = useState([]);
